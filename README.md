@@ -23,7 +23,18 @@ A desktop application built with Python and PyQt6 that analyses an image, quanti
   - Standard File menu (`Open`, `Save`, `Save As...`, `Exit`).
   - Help menu with an "About" dialog.
 
-## Requirements
+## Installation and Usage
+
+There are two ways to use this application.
+
+### Option 1: Pre-built Executable (Recommended for Windows users)
+
+1.  Download the `vectorBoundaries.exe` from the project's release page.
+2.  Double-click the file to run. No installation is required.
+
+### Option 2: From Source Code (For all platforms)
+
+#### 1. Requirements
 
 This project requires Python 3 and the following libraries:
 
@@ -34,17 +45,16 @@ This project requires Python 3 and the following libraries:
 - `scipy`
 - `svgwrite`
 
-## Installation
+#### 2. Installation
 
 1.  **Clone the repository or download the source code.**
-
 2.  **Install the required dependencies using pip:**
 
     ```bash
     pip install PyQt6 Pillow numpy scikit-learn scipy svgwrite
     ```
 
-## Usage
+#### 3. Usage
 
 1.  **Run the application from your terminal:**
 
@@ -52,13 +62,15 @@ This project requires Python 3 and the following libraries:
     python vectorBoundaries.py
     ```
 
-2.  **Open an Image**: Use the `File > Open...` menu to select an input image (`.png`, `.jpg`, etc.). The application will automatically perform an initial analysis.
+## Application Guide
 
-3.  **Adjust Settings**:
+1.  **Open an Image**: Use the `File > Open...` menu to select an input image (`.png`, `.jpg`, etc.). The application will automatically perform an initial analysis.
+
+2.  **Adjust Settings**:
     -   Use the **"Number of Colours"** slider to change the level of detail in the quantisation. Release the slider to trigger a new analysis.
     -   Use the **"Smoothing Level"** slider to dynamically apply a median filter. This helps remove noise and create smoother boundary lines.
 
-4.  **Save the Output**: Use the `File > Save` or `File > Save As...` menu to save the resulting boundaries as an `.svg` or a `.png` file.
+3.  **Save the Output**: Use the `File > Save` or `File > Save As...` menu to save the resulting boundaries as an `.svg` or a `.png` file.
 
 ## How It Works
 

@@ -58,7 +58,7 @@ This project requires Python 3 and the following libraries:
     -   Use the **"Number of Colours"** slider to change the level of detail in the quantisation. Release the slider to trigger a new analysis.
     -   Use the **"Smoothing Level"** slider to dynamically apply a median filter. This helps remove noise and create smoother boundary lines.
 
-4.  **Save the Output**: Use the `File > Save` or `File > Save As...` menu to save the resulting boundaries as an `.svg` file.
+4.  **Save the Output**: Use the `File > Save` or `File > Save As...` menu to save the resulting boundaries as an `.svg` or a `.png` file.
 
 ## How It Works
 

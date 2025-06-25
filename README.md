@@ -4,8 +4,7 @@
 
 A desktop application built with Python and PyQt6 that analyses an image, quantises its colours, and generates a clean, scalable vector (SVG) file of the boundaries between colour regions.
 
-![Screenshot Placeholder](https://via.placeholder.com/800x600.png?text=Application+Screenshot)
-*(Replace this with a screenshot of the application)*
+![Application Screenshot](/images/exampleWindow.png)
 
 ---
 

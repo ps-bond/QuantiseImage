@@ -62,6 +62,13 @@ This project requires Python 3 and the following libraries:
     python vectorBoundaries.py
     ```
 
+    Or run
+    ```
+    vectorBoundaries.exe
+    ```
+    on Windows.
+
+    
 ## Application Guide
 
 1.  **Open an Image**: Use the `File > Open...` menu to select an input image (`.png`, `.jpg`, etc.). The application will automatically perform an initial analysis.

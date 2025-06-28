@@ -51,7 +51,7 @@ This project requires Python 3 and the following libraries:
 2.  **Install the required dependencies using pip:**
 
     ```bash
-    pip install PyQt6 Pillow numpy scikit-learn scipy svgwrite
+    pip install -r requirements.txt
     ```
 
 #### 3. Usage

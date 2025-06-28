@@ -1,0 +1,10 @@
+# This file lists the Python packages required by the Image to Vector Converter.
+# Use 'pip install -r requirements.txt' to install them.
+# The versions are pinned to ensure a reproducible environment.
+
+PyQt6==6.7.0
+Pillow==10.3.0
+numpy==1.26.4
+scikit-learn==1.4.2
+scipy==1.13.0
+svgwrite==1.4.3
